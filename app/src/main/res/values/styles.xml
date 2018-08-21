@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionButtonOverflow</item>
+
+    </style>
+
+    <style name="BaseTextViewStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@style/BaseTextViewStyle">
+        <item name="android:textSize">@dimen/small_text</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">@dimen/smallest_padding</item>
+    </style>
+
+    <style name="ActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_filter</item>
+    </style>
+</resources>

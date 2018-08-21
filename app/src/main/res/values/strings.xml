@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Pop Movies</string>
+    <string name="details_title">Movie Details</string>
+    <string name="overview">Overview</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_popular_value</string>
+    <string name="settings_order_by_popular_label">Popular</string>
+    <string name="settings_order_by_popular_value" translatable="false">popular</string>
+    <string name="settings_order_by_top_rated_label">Top rated</string>
+    <string name="settings_order_by_top_rated_value" translatable="false">top_rated</string>
+    <string name="settings_order_by_favorites_label">Favorites</string>
+    <string name="settings_order_by_favorites_value" translatable="false">favorites</string>
+    <string name="fav_add">Add to Favorites</string>
+    <string name="fav_remove">Remove from Favorites</string>
+    <string name="fav_add_successful">Marked as favorite</string>
+    <string name="fav_add_failed">Failed to mark as favorite</string>
+    <string name="fav_remove_successful">Removed from favorites</string>
+    <string name="fav_remove_failed">Failed to remove from favorites</string>
+</resources>
